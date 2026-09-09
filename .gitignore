@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pip-cache/
+venv/
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+out/
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# Environment
+.env
+.env.example
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+.next/
+out/
